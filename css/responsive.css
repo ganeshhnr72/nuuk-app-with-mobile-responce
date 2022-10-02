@@ -7,11 +7,18 @@
     border: 0;
     padding: 0;
     font-family: "Dosis", sans-serif;
+    width: 100%;
+  }
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
   }
   body {
     border: 0;
     padding: 0;
     font-family: "Dosis", sans-serif;
+    width: 100%;
   }
   .menu_css {
     display: none;
@@ -29,6 +36,13 @@
     display: flex;
     width: 100%;
     background-color: transparent;
+  }
+  .social_icons {
+    top: 150px;
+    left: -2px;
+  }
+  .social_icons img {
+    margin-left: 15px;
   }
 
   .free_quote {
@@ -56,10 +70,11 @@
     font-size: 40px;
     margin-right: 100px;
     display: flex;
+    left: 0;
   }
   .small-text p {
     font-size: 20px;
-    margin-right: 100px;
+    margin-right: 200px;
     display: flex;
     line-height: 1.2;
     margin-bottom: 20px;
@@ -69,19 +84,14 @@
   /* contact section starts here */
   .contact_css {
     flex-direction: column;
-    position: absolute;
+    position: relative;
     display: flex;
     height: auto;
     width: 100%;
-    /* background-color: #e47312; */
-    background-image: linear-gradient(186deg, #e47312, #ff6361);
     margin-left: -10px;
-    /* margin-right: -100px; */
-    /* left: 0px; */
-    margin-top: 20px;
     justify-content: center;
     align-items: center;
-    /* margin: 450px 0px 0px 350px; */
+    top: 200px;
   }
   .phone_svg {
     width: 30%;
@@ -191,7 +201,7 @@
   .specialization_section {
     flex-direction: column;
     position: relative;
-    margin-top: 500px;
+    margin-top: 100px;
     width: 100%;
     /* padding: 100px; */
     background-color: transparent;
@@ -206,7 +216,7 @@
     /* color: red; */
     color: rgba(241, 241, 247, 0.4);
     font-size: 50px;
-    margin-left: -10px;
+    margin-left: -80px;
     letter-spacing: 2px;
     background-color: transparent;
   }
@@ -216,6 +226,7 @@
     position: absolute;
     z-index: 2;
     margin-top: 90px;
+    margin-left: -80px;
     font-size: 20px;
     line-height: 50px;
     letter-spacing: 1px;
@@ -355,7 +366,7 @@
   .main-div_2 h1 {
     position: absolute;
     top: 300px;
-    margin-left: -90px;
+    margin-left: -80px;
     z-index: 1;
     /* margin-left: 6%; */
     color: rgba(213, 213, 216, 0.158);
@@ -367,7 +378,8 @@
     position: absolute;
     top: 350px;
     z-index: 2;
-    margin-left: -90px;
+    margin-left: -70px;
+    margin-top: 40px;
     /* margin-bottom: 10px; */
     font-size: 30px;
     letter-spacing: 3px;
@@ -422,6 +434,10 @@
   .main-div_3 h1 {
     font-size: 60px;
     margin-top: 70px;
+    margin-left: -50px;
+  }
+  .main-div_3 h2 {
+    margin-left: -70px;
   }
   .main-div_3 h3 {
     font-size: 10px;
@@ -516,8 +532,8 @@
     position: relative;
     flex-direction: column;
     margin: 0%;
-    /* max-width: 100%;
-    width: 400px; */
+    /* max-width: 100%; */
+    width: 400px;
     /* height: 3000px; */
     background-image: url(../img/banner-2.jpg);
     background-size: cover;
@@ -545,6 +561,7 @@
     max-width: 100%;
     font-size: 25px;
     margin: 30px;
+    margin-left: 50px;
     top: 70px;
     font-weight: bolder;
     /* margin: auto; */
@@ -559,6 +576,7 @@
     font-size: 20;
     top: 160px;
     margin: 30px;
+    margin-left: 50px;
     /* font-weight: bolder; */
     /* margin: auto; */
   }
@@ -585,13 +603,14 @@
     /* z-index: 1; */
     text-align: center;
     padding: 32px;
-    background-color: #f7f8fc;
+    background-color: #ffffff;
     /* margin-bottom: 100px; */
   }
   .main-div_team h1 {
     position: absolute;
     z-index: 4;
-    margin-left: 1%;
+
+    margin-left: -100px;
     margin-top: 50px;
     color: rgba(213, 213, 216, 0.158);
     font-size: 80px;
@@ -602,7 +621,7 @@
     position: absolute;
     /* top: 50px; */
     z-index: 4;
-    margin-left: 5%;
+    margin-left: -100px;
     margin-top: 110px;
     /* margin-bottom: 10px; */
     font-size: 20px;
@@ -747,18 +766,20 @@
   .testimonial-left-text {
     height: 10px;
     margin-top: 100px;
+    margin-left: 20px;
   }
   .testimonial-left-text h1 {
     background-color: transparent;
-    color: rgba(128, 128, 128, 0.144);
+    /* color: rgba(128, 128, 128, 0.144); */
+    color: rgba(213, 213, 216, 0.158);
     font-size: 55px;
     /* margin-left: -50px; */
   }
   .testimonial-left-text h2 {
     background-color: transparent;
-    margin-top: -80px;
+    margin-top: -60px;
     margin-left: -100px;
-    font-weight: 520;
+    font-weight: 600;
     font-size: 30px;
   }
 
@@ -775,38 +796,72 @@
 
   /* ------------------------------------R1--------------------------------------  */
   .flex-item-right .r-1 {
-    height: 200px;
-    width: 250px;
+    height: 250px;
+    width: 300px;
     /* background-color: red; */
-    margin-left: 50px;
+    margin-left: 40px;
     margin-top: 50px;
   }
-
+  .flex-item-right .r-1 h1 {
+    font-size: 20px;
+  }
+  .flex-item-right .r-1 h2 {
+    font-size: 25px;
+  }
+  .flex-item-right .r-1 p {
+    font-size: 20px;
+  }
   /* ------------------------------------R2--------------------------------------  */
   .flex-item-right .r-2 {
-    height: 200px;
-    width: 250px;
+    height: 250px;
+    width: 300px;
     /* background-color: red; */
-    margin-left: 50px;
+    margin-left: 40px;
     margin-top: 150px;
   }
-
+  .flex-item-right .r-2 h1 {
+    font-size: 20px;
+  }
+  .flex-item-right .r-2 h2 {
+    font-size: 25px;
+  }
+  .flex-item-right .r-2 p {
+    font-size: 20px;
+  }
   /* ----------------R3---------------  */
   .flex-item-right .r-3 {
-    height: 200px;
-    width: 250px;
+    height: 250px;
+    width: 300px;
     /* background-color: red; */
-    margin-left: 50px;
+    margin-left: 40px;
     margin-top: 150px;
+  }
+  .flex-item-right .r-3 h1 {
+    font-size: 20px;
+  }
+  .flex-item-right .r-3 h2 {
+    font-size: 25px;
+  }
+  .flex-item-right .r-3 p {
+    font-size: 20px;
   }
 
   /* ----------------R4---------------  */
   .flex-item-right .r-4 {
-    height: 200px;
-    width: 250px;
+    height: 250px;
+    width: 300px;
     /* background-color: red; */
-    margin-left: 50px;
+    margin-left: 40px;
     margin-top: 150px;
+  }
+  .flex-item-right .r-4 h1 {
+    font-size: 20px;
+  }
+  .flex-item-right .r-4 h2 {
+    font-size: 25px;
+  }
+  .flex-item-right .r-4 p {
+    font-size: 20px;
   }
   /* testimonials ends here  */
   /* blog section starts here */
@@ -816,9 +871,14 @@
     /* height: 400px; */
     width: 100%;
     padding: 0%;
-    margin: -10px;
+    /* margin: -10px; */
     background-color: #fff;
     margin-top: 50px;
+  }
+  .blog-container-x {
+    /* display: flex; */
+    width: 400px;
+    margin-left: -10px;
   }
   .main-div_blog_section h1 {
     display: flex;
@@ -832,8 +892,8 @@
   .main-div_blog_section h2 {
     display: flex;
     position: absolute;
-    margin-top: 155px;
-    margin-left: 70px;
+    margin-top: 120px;
+    margin-left: 10px;
     font-size: 30px;
     font-weight: 900;
     color: #000105;
@@ -872,7 +932,7 @@
     /* justify-content: space-between; */
   }
   .client-logo img {
-    width: 70px;
+    width: 65px;
     /* margin-right: 10%; */
     margin: auto;
     /* top: 500px; */
