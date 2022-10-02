@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border: 0;
+  padding: 0;
+  font-family: "Dosis", sans-serif;
+}
+/* -----------------------------testimonial section starts here ------------------------------------------  */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+  height: 700px;
+  background-color: aqua;
+  /* position: relative; */
+}
+
+.flex-item-left {
+  background-color: #f7f8fc;
+  /* padding: 10px; */
+  flex: 45%;
+  /* position: absolute; */
+}
+.testimonial-left-text {
+  background-color: transparent;
+  /* font-size: 30px; */
+}
+.testimonial-left-text h1 {
+  background-color: transparent;
+  color: rgba(128, 128, 128, 0.144);
+  font-size: 100px;
+  margin-left: -100px;
+  margin-top: 150px;
+}
+.testimonial-left-text h2 {
+  background-color: transparent;
+  margin-top: -130px;
+  margin-left: -100px;
+  font-weight: 520;
+  font-size: 40px;
+}
+.flex-item-right {
+  background-color: #f7f8fc;
+  /* padding: 10px; */
+  /* position: absolute; */
+  flex: 55%;
+}
+/* ------------------------------------------right section starts here---------------------------------  */
+/* ----------------R1---------------  */
+.flex-item-right .r-1 {
+  height: 200px;
+  width: 250px;
+  background-color: #fff;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+.r-1 button {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  color: #ffffff;
+  border: none;
+  font-size: 90px;
+  align-items: center;
+  text-align: center;
+  margin-top: -40px;
+  background-image: linear-gradient(8deg, #ff6361, #e47312);
+}
+.r-1 h1 {
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: -10px;
+  color: rgb(36, 33, 33);
+}
+.r-1 h2 {
+  background-color: transparent;
+  font-size: 17px;
+  margin-top: -5px;
+  font-weight: 200;
+  color: gray;
+}
+.r-1 p {
+  font-size: 13px;
+  padding: 5px;
+  text-align: center;
+  line-height: 1.5;
+  margin-top: -5px;
+  font-weight: 200;
+  color: gray;
+}
+/* ----------------R2---------------  */
+.flex-item-right .r-2 {
+  height: 200px;
+  width: 250px;
+  background-color: #fff;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+.r-2 button {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  color: #ffffff;
+  border: none;
+  font-size: 90px;
+  align-items: center;
+  text-align: center;
+  margin-top: -40px;
+  background-image: linear-gradient(8deg, #ff6361, #e47312);
+}
+.r-2 h1 {
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: -10px;
+  color: rgb(36, 33, 33);
+}
+.r-2 h2 {
+  background-color: transparent;
+  font-size: 17px;
+  margin-top: -5px;
+  font-weight: 200;
+  color: gray;
+}
+.r-2 p {
+  font-size: 13px;
+  padding: 5px;
+  text-align: center;
+  line-height: 1.5;
+  margin-top: -5px;
+  font-weight: 200;
+  color: gray;
+}
+/* ----------------R3---------------  */
+.flex-item-right .r-3 {
+  height: 200px;
+  width: 250px;
+  background-color: #fff;
+  margin-left: 410px;
+  margin-top: -410px;
+}
+.r-3 button {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  color: #ffffff;
+  border: none;
+  font-size: 90px;
+  align-items: center;
+  text-align: center;
+  margin-top: -40px;
+  background-image: linear-gradient(8deg, #ff6361, #e47312);
+}
+.r-3 h1 {
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: -10px;
+  color: rgb(36, 33, 33);
+}
+.r-3 h2 {
+  background-color: transparent;
+  font-size: 17px;
+  margin-top: -5px;
+  font-weight: 200;
+  color: gray;
+}
+.r-3 p {
+  font-size: 13px;
+  padding: 5px;
+  text-align: center;
+  line-height: 1.5;
+  margin-top: -5px;
+  font-weight: 200;
+  color: gray;
+}
+/* ----------------R4---------------  */
+.flex-item-right .r-4 {
+  height: 200px;
+  width: 250px;
+  background-color: #fff;
+  margin-left: 410px;
+  margin-top: 70px;
+}
+.r-4 button {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  color: #ffffff;
+  border: none;
+  font-size: 90px;
+  align-items: center;
+  text-align: center;
+  margin-top: -40px;
+  background-image: linear-gradient(8deg, #ff6361, #e47312);
+}
+.r-4 h1 {
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: -10px;
+  color: rgb(36, 33, 33);
+}
+.r-4 h2 {
+  background-color: transparent;
+  font-size: 17px;
+  margin-top: -5px;
+  font-weight: 200;
+  color: gray;
+}
+.r-4 p {
+  font-size: 13px;
+  padding: 5px;
+  text-align: center;
+  line-height: 1.5;
+  margin-top: -5px;
+  font-weight: 200;
+  color: gray;
+}
+
+/* -----------------------------testimonial section ends here ------------------------------------------  */

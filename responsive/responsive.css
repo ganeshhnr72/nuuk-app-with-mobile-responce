@@ -1,0 +1,72 @@
+@media (max-width: 800px) {
+  .flex-item-right,
+  .flex-item-left {
+    flex: 100%;
+    display: block;
+    background-color: transparent;
+  }
+  .testimonial-left-text {
+    height: 10px;
+    margin-top: 100px;
+  }
+  .testimonial-left-text h1 {
+    background-color: transparent;
+    color: rgba(128, 128, 128, 0.144);
+    font-size: 55px;
+    /* margin-left: -50px; */
+  }
+  .testimonial-left-text h2 {
+    background-color: transparent;
+    margin-top: -80px;
+    margin-left: -100px;
+    font-weight: 520;
+    font-size: 30px;
+  }
+
+  .flex-container {
+    background-color: transparent;
+  }
+
+  /* --------------------------right--------------------------  */
+  .flex-item-right {
+    margin-top: 100px;
+    align-items: center;
+    background-color: #f7f8fc;
+  }
+
+  /* ------------------------------------R1--------------------------------------  */
+  .flex-item-right .r-1 {
+    height: 200px;
+    width: 250px;
+    /* background-color: red; */
+    margin-left: 70px;
+    margin-top: 50px;
+  }
+
+  /* ------------------------------------R2--------------------------------------  */
+  .flex-item-right .r-2 {
+    height: 200px;
+    width: 250px;
+    /* background-color: red; */
+    margin-left: 70px;
+    margin-top: 150px;
+  }
+
+  /* ----------------R3---------------  */
+  .flex-item-right .r-3 {
+    height: 200px;
+    width: 250px;
+    /* background-color: red; */
+    margin-left: 70px;
+    margin-top: 150px;
+  }
+
+  /* ----------------R4---------------  */
+  .flex-item-right .r-4 {
+    height: 200px;
+    width: 250px;
+    /* background-color: red; */
+    margin-left: 70px;
+    margin-top: 150px;
+  }
+}
