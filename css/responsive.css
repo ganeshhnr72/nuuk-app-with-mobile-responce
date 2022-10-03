@@ -1041,4 +1041,13 @@
     top: 40px;
     left: 25px;
   }
+  /* --------------------collapse navigation icon -------------------  */
+
+  .menu-icon-collapse i {
+    font-size: 40px;
+    display: flex;
+    margin-left: 180px;
+    margin-top: 20px;
+    background-color: transparent;
+  }
 }
