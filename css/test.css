@@ -1367,3 +1367,9 @@ footer {
   top: 40px;
   left: 25px;
 }
+/* --------------------collapse navigation icon -------------------  */
+@media screen and (min-width: 400px) {
+  .menu-icon-collapse {
+    display: none;
+  }
+}
